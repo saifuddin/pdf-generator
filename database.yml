@@ -1,0 +1,9 @@
+# change db config here
+database:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: wtf_development
+  pool: 5
+  tablename: startups # which table to convert to json
+  column_as_filename: name # value for the column will be used as filename. common column name usually: "title", "name" etc
