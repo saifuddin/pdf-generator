@@ -16,4 +16,6 @@ class TableA < ActiveRecord::Base
 end
 
 p "Writing to ./data.json.."
-File.write("./data.json", TableA.all.to_json)
+File.open("./data.json", "w") do |f|
+  f.write TableA.all.to_json
+end

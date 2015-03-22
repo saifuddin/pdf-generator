@@ -13,6 +13,7 @@ rows.each_with_index do |row, index|
   p "Creating " + filename + "..."
 
   pdf = Prawn::Document.new do
+    # CUSTOMIZE HERE!
     font 'helveticabold.ttf'
     text row['name'], :size => 25, :align => :center
     move_down(3)
