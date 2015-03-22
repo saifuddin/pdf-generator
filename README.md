@@ -40,6 +40,8 @@ end
 ```
 How it works is similar to a word document; it has somekind of carrot that you can control.
 The line `text row['name'], :size => 25, :align => :center` will render a text from column `name`. Change `name` to your specified column.
+
+Read more on it here: http://prawnpdf.org/manual.pdf
 ___
 # LICENCE
 
