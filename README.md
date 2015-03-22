@@ -13,6 +13,7 @@ These scripts expect the system to have atleast Ruby 1.8 installed. No need to i
 PG2JSON
 --
 `pg2json.rb` converts a Postgres table to a JSON file. Things that needs to be done:
+
 1. Edit `./database.yml` and change the `database`, `tablename` and `column_as_filename` values
 2. Add `username` and/or `password` if applicable.
 
